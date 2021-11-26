@@ -1,0 +1,56 @@
+{
+  "name": "cordova-plugin-purchase",
+  "version": "10.6.1",
+  "description": "Cordova Purchase plugin for iOS, Android, Windows (AppStore, Play, UWP)",
+  "cordova": {
+    "id": "cordova-plugin-purchase",
+    "platforms": [
+      "android",
+      "ios",
+      "wp8"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/j3k0/cordova-plugin-purchase.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "cordova",
+    "phonegap",
+    "purchase",
+    "storekit",
+    "ios",
+    "android",
+    "play",
+    "appstore"
+  ],
+  "scripts": {
+    "test": "make test-js",
+    "coverage": "make test-js-coverage"
+  },
+  "author": "Jean-Christophe Hoelt <hoelt@fovea.cc>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j3k0/cordova-plugin-purchase/issues"
+  },
+  "homepage": "https://github.com/j3k0/cordova-plugin-purchase",
+  "devDependencies": {
+    "acorn": "^6.3.0",
+    "babel-eslint": "^10.0.3",
+    "coveralls": "^3.0.6",
+    "eslint": "^5.16.0",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.14.3",
+    "istanbul": "^0.4.5",
+    "jshint": "^2.10.2",
+    "mocha": "^6.2.0",
+    "preprocessor": "^1.4.0",
+    "uglify-js": "^3.6.0"
+  },
+  "types": "./src/js/index.d.ts"
+}
